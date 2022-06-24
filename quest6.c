@@ -1,15 +1,24 @@
+/* скрипт для высчета цифр, выводящихся через функцию rand() */
+
 #include <stdio.h>
-#include <math.h> // подключаем math.h
 #include <stdlib.h> // подключаем stdlib.h
 #include <time.h> // подключаем stdlib.h
 
 int main (void) {
   srand(time(NULL));
-  printf("%d\n", 80 + rand() % (100 - 80 +1)); // [80;100], где min - 80, max - 100
-  printf("%d\n", 80 + rand() % (100 - 80 +1)); // [80;100], где min - 80, max - 100
-  printf("%d\n", 80 + rand() % (100 - 80 +1)); // [80;100], где min - 80, max - 100
-  printf("%d\n", 80 + rand() % (100 - 80 +1)); // [80;100], где min - 80, max - 100
-  printf("%d\n", 80 + rand() % (100 - 80 +1)); // [80;100], где min - 80, max - 100
+  int random_0, random_1; // переменные для счета 0 и 1
+  for(int i = 0; i <= 10000; i++) {
+  int random = rand() % (1 + 1); // [0;1], где min - 0, max - 1
 
+    if (random == 0) { 
+      random_0++;
+    }
+
+    if (random == 1) {
+      random_1++;
+    }
+  }
+
+  printf("%d %d", random_0, random_1); // количество выведенных 0 и 1, всегда числа будут раномерно распределяться
   return 0;
 }
