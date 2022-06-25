@@ -8,7 +8,7 @@ int main (void) {
   srand(time(NULL));
   int random_0, random_1; // переменные для счета 0 и 1
   for(int i = 0; i <= 10000; i++) {
-  int random = rand() % (1 + 1); // [0;1], где min - 0, max - 1
+  int random = 0 + rand() % (1 - 0 + 1); // [0;1], где min - 0, max - 0 + 1
 
     if (random == 0) { 
       random_0++;
