@@ -7,7 +7,7 @@ int main(void) {
   scanf("%d %d", &m, &n);
   
   int mld = m / n % 10; // 23 % 10 = 3
-  int std = ((double) m / n - m / n) * 10; // 10.025 - 10 = 0.025 * 10 = 0.25
+  int std = ( 1. * m / n - m / n) * 10; // 10.025 - 10 = 0.025 * 10 = 0.25 || 1. = (float)
   // int std = m * 10 / n % 10;
 
   printf("%d %d", mld, std);
