@@ -7,6 +7,7 @@ int main(void) {
   scanf("%d", &k);
   // printf("%d", k = 0 ? k : !k);
   // printf("%d", (k + 1) % 2);
-  printf("%d", !k);
+  // printf("%d", !k);
+  printf("%d", 1-k);
   return 0;
 }
