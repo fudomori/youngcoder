@@ -12,3 +12,17 @@ int main(void) {
   printf("%.5lf\n", e); // 6 слагаемое
   return 0;
 }
+
+/* int main() {
+    double e = 1;
+    int fact = 1;
+
+    for (int i = 1; i < 7; i++, fact *= i)
+    {
+        if (i > 3) {
+           printf("%.5lf\n", e);
+        }
+        e += 1.0 / fact;
+    }
+    return 0;
+} */
