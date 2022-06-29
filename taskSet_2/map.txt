@@ -1,0 +1,2 @@
+filename - date - "description"
+quest1.c - 2022-06-29 20:03:12 - Programm, determining is the number - odd or even
