@@ -1,11 +1,10 @@
-/*  */
+/* Decimal right shift */
 
 #include <stdio.h>
-#include <math.h>
 
 int main(void) {
-  int ;
-  scanf("%d", &);
-  printf("%d", );
+  int k;
+  scanf("%d", &k);
+  printf("%d", k / 10);
   return 0;
 }

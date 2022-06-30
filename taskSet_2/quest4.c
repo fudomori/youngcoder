@@ -1,4 +1,4 @@
-/* Determine if numbers are equal zero*/
+/* Determine if numbers are equal zero */
 
 #include <stdio.h>
 #include <math.h> // pow()

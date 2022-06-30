@@ -1,1 +1,6 @@
 filename - date - "description"
+quest1.c - 2022-06-30 16:33:04 - Amoeba divides into 2 cells every 3 hours. Determine how many cells there will be after k hours
+quest2.c - 2022-06-30 18:34:08 - A program that converts feet and inches to meters and centimeters
+quest3.c - 2022-06-30 18:34:26 - Program to convert pounds to kilograms
+quest4.c - 2022-06-30 18:34:40 - program to convert temperature from degrees Fahrenheit to degrees Celsius
+quest5.c - 2022-06-30 20:45:28 - Converting a number from binary to decimal < TMP_MAX

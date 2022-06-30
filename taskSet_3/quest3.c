@@ -1,11 +1,10 @@
-/*  */
+/* Program to convert pounds to kilograms */
 
 #include <stdio.h>
-#include <math.h>
 
 int main(void) {
-  int ;
-  scanf("%d", &);
-  printf("%d", );
+  int m;
+  scanf("%d", &m);
+  printf("%.2lf", m * 0.454); // 124 = 56.30
   return 0;
 }

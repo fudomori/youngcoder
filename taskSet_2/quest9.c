@@ -1,11 +1,10 @@
-/*  */
+/* Find the number of seconds elapsed since the beginning of the last hour */
 
 #include <stdio.h>
-#include <math.h>
 
 int main(void) {
-  int ;
-  scanf("%d", &);
-  printf("%d", );
+  int k;
+  scanf("%d", &k);
+  printf("%d", k % 3600); // 32792 = 392
   return 0;
 }
