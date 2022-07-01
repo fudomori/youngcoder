@@ -9,3 +9,5 @@ quest7.c - 2022-07-01 13:21:58 - A program that reads two natural numbers and th
 quest8.c - 2022-07-01 13:26:55 - Comparison of numbers modulo
 quest9.c - 2022-07-01 15:01:40 - A program that rotates a number by k positions
 quest10.c - 2022-07-01 15:02:13 - Caesar's cipher
+quest11.c - 2022-07-01 15:26:51 - A program that encrypts a 4-digit number
+quest12.c - 2022-07-01 16:00:02 - A program that decrypts a 4-digit number
