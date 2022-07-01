@@ -5,3 +5,5 @@ quest3.c - 2022-06-30 18:34:26 - Program to convert pounds to kilograms
 quest4.c - 2022-06-30 18:34:40 - program to convert temperature from degrees Fahrenheit to degrees Celsius
 quest5.c - 2022-06-30 20:45:28 - Converting a number from binary to decimal < TMP_MAX
 quest6.c - 2022-07-01 12:27:28 - Program for converting a number from a number system with base k to a number system with base 10
+quest7.c - 2022-07-01 13:21:58 - A program that reads two natural numbers and then determines if the first is a multiple of the second
+quest8.c - 2022-07-01 13:26:55 - Comparison of numbers modulo
