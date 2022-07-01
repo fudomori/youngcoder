@@ -1,3 +1,16 @@
 filename - date - "description"
 quest1.c - 2022-06-29 20:03:12 - Programm, determining is the number - odd or even
 quest2.c - 2022-06-30 12:17:47 - Programm, determining is the number - odd or even + number minus (not change)
+quest3.c - 2022-06-30 14:05:53 - Calculate difference butween the number of odd and even numbers
+quest4.c - 2022-06-30 14:06:12 - Determine if numbers are equal zero
+quest5.c - 2022-06-30 14:06:25 - Decimal right shift
+quest6.c - 2022-06-30 14:08:08 - Decimal left shift
+quest7.c - 2022-06-30 14:32:34 - Cyclic shift to the right by a decimal place for a three-digit integer
+quest8.c - 2022-06-30 14:32:48 - Cyclic shift to the left by a decimal place for a three-digit integer
+quest9.c - 2022-06-30 14:35:40 - Find the number of seconds elapsed since the beginning of the last hour
+quest10.c - 2022-06-30 14:40:11 - Find the number of seconds that have passed since the beginning of the last minute
+quest11.c - 2022-06-30 14:49:32 - Get the number of the current week in the year. Let's say January 1st was Monday
+quest12.c - 2022-06-30 15:49:18 - Get the number of the current week in the year. We assume that January 1st fell on a Friday
+quest13cd - 2022-06-30 16:18:21 - /c/Users/fudom/study/youngcoder/taskSet_2/
+quest13.c - 2022-06-30 16:19:15 - The number of the day of the week must be specified
+quest14.c - 2022-06-30 16:22:19 - Determine the number of the day of the week. We assume that January 1 fell on a Wednesday
