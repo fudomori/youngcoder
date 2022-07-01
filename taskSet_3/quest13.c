@@ -10,6 +10,6 @@ int main(void) {
   p0 = 1.29;
   z = 1.25*pow(10, -4);
   p = p0 * pow(2.718, -h*z);
-  printf("%.2lf", p);
+  printf("%.2lf", p); // 800 >> 1.17
   return 0;
 }
