@@ -1,10 +1,11 @@
 /* Задача: Продолжить сказку */
 
 #include <stdio.h>
-#include <locale.h>
+#include <windows.h>
 
 int main(void) {
-  setlocale(LC_ALL, "");
+  SetConsoleOutputCP(CP_UTF8);
+  SetConsoleCP(CP_UTF8);
   char s;  
   scanf("%c", &s);
 

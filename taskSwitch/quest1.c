@@ -1,10 +1,13 @@
 /* Основы switch */
 
 #include <stdio.h>
-#include <locale.h> // для функции setlocale
+// #include <locale.h> // для функции setlocale
+#include <windows.h> // для функций SetConsoleOutputCP и SetConsoleCP
 
 int main(void) {
-  setlocale(LC_ALL, ""); // чтобы использовать русские символы
+  // setlocale(LC_ALL, ""); // чтобы использовать русские символы
+  SetConsoleOutputCP(CP_UTF8);
+  SetConsoleCP(CP_UTF8);
 
   printf("Выберите правильный вариант ответа. Начало и конец Второй мировой войны:\n");
   printf("  a. 1 сентября 1939 -- 2 сентября 1945\n");
