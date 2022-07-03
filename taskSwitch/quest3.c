@@ -1,7 +1,7 @@
 /* Задача: Продолжить сказку */
 
 #include <stdio.h>
-#include <windows.h>
+#include <windows.h>  // для функций SetConsoleOutputCP и SetConsoleCP
 
 int main(void) {
   SetConsoleOutputCP(CP_UTF8);
