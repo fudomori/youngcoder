@@ -1,3 +1,5 @@
+/* Основы switch */
+
 #include <stdio.h>
 #include <locale.h> // для функции setlocale
 
@@ -10,15 +12,16 @@ int main(void) {
   printf("  c. 22 июня 1941 -- 9 мая 1945\n");
   printf("  d. 22 июня 1941 -- 2 сентября 1945\n");
   
-  char answer; 
   printf("Введите ваш вариант ответа: ");
-  scanf("%c",&answer);
+  fflush(stdout); // для вывода в Git Bash всех строк, через printf()
+  char answer;
+  scanf("%c", &answer);
 
   switch (answer) {
     case 'a': printf("GOOD!\n"); break;
-    case 'b': printf("BAD!\n"); break;
-    case 'c': printf("BAD!\n"); break;
-    case 'd': printf("BAD!\n"); break;
+    case 'b': 
+    case 'c': 
+    case 'd': printf("BAD!\n"); break; // a, b, c покажут одинаковые результаты, т.к. нет команды break
     default: printf("ERROR!\n"); break;
   }
 
