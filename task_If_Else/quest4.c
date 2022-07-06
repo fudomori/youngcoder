@@ -15,6 +15,13 @@ int main(void) {
   if(c > 0) {
     i++;
   }
+
+/*   if (a > 0) i++;
+  if (b > 0) i++;
+  if (c > 0) i++; */
+
   printf("%d", i);
   return 0;
+
+  
 }
