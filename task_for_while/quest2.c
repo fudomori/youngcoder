@@ -3,11 +3,12 @@
 #include <stdio.h>
 
 int main() {
-    int n;
-    scanf("%d", &n);
-    for(int i = 1; i <= n; i++) {
+    int min, max;
+    scanf("%d %d", &min, &max);
+    if (min <= 0) min = 1;
+    for(int i = min; i <= max; i++) {
         printf("%d ", i);
     }
-    // for(int i = 0; ++i <= n; printf("%d ", i));
+    // for(int i = k > 1 ? k : 1; i <= m; printf("%d ", i++));
     return 0;
 }
