@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-/* int main() {
+/* int main( ) {
   int x, fact = 1;
   scanf("%d", &x);
 
