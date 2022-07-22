@@ -9,5 +9,5 @@ int main() {
     for (int j = 0; j < i; j++)
       printf("%4d", i);
   }
-  return 0;
+  return 0; 
 }
