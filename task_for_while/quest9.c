@@ -1,13 +1,18 @@
-/* Вывести числа из промежутка [A;B]. При этом число A должно только A раз, число A+1 - A+1 раза, A+2 - A+2 раза и т.д. */
+/* Для заданного числа number вывести все его делители и их количество на экран */
 
 #include <stdio.h>
 
 int main() {
-  int min, max;
-  scanf("%d %d", &min, &max);
-  for (int i = min; i <= max; i++) {
-    for (int j = 0; j < i; j++)
-      printf("%4d", i);
+  int number;
+  int count = 0;
+  scanf("%d", &number);
+
+  for (int i = 1; i <= number; i++) {
+    if (number % i == 0) {
+      printf("%d ", i);
+      count++;
+    }
   }
-  return 0; 
+  printf("\n%d", count);
+  return 0;
 }
