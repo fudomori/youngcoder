@@ -25,4 +25,5 @@ int main() {
     printf("%d ", count*count);
     count++;
   }
+  return 0;
 }
