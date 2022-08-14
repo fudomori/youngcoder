@@ -29,7 +29,7 @@ int main(void) {
         value = 1 + rand()%6;
         printf("Result: %d\n", value);
         break;
-      default: 
+      default:
         printf("Error! Try again...\n");
         break;
     }
