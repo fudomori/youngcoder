@@ -6,8 +6,8 @@ int main() {
   int value = 0;
   int count = 0;
   
-  while (scanf("%d", &value) && value != 0) {
-    count = count + value;
+  while (scanf("%d", &value) && value) {
+    count += value;
   }
     printf("%d", count);
 
