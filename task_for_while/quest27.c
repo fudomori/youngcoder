@@ -2,11 +2,23 @@
 
 #include <stdio.h>
 
-int main() {
+/* int main() {
   int value = 0;
 
   while (scanf("%d", &value) && value) {
-    value > 0 ? printf("%d ", value) : value;
+    if (value > 0) printf("%d ", value);
+  }
+
+  return 0;
+} */
+
+int main() {
+  int value = 0;
+
+  while (scanf("%d", &value)) {
+    if (value == 0) break;
+    if (value < 0) continue;
+    printf("%d ", value);
   }
 
   return 0;
