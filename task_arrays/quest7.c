@@ -7,9 +7,9 @@ int main(void) {
   scanf("%d", &arr_in);
   int arr[arr_in];
 
-  double sum = 0;
   for (int i=0; i<arr_in; ++i) scanf("%d", &arr[i]);  // ввод значений в массив
 
+  double sum = 0;
   for (int i=0; i<arr_in; ++i) sum += arr[i];   // высчитывание среднего ариф. 
   sum /= arr_in;
 
