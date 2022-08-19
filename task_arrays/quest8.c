@@ -21,7 +21,7 @@ int main(void) {
 }
 
 /*
-	for (int i = 0; i < n; i++) scanf("%d", &num[(n / 2 + i) % n]);
-  for (int i = 0; i < n; i++) printf("%d ", i < n/2 ? arr[i+n/2] : arr[i-n/2]);
+	for (int i = 0; i < arr_in; i++) scanf("%d", &arr[(arr_in / 2 + i) % arr_in]);
+  for (int i = 0; i < arr_in; i++) printf("%d ", i < arr_in/2 ? arr[i+arr_in/2] : arr[i-arr_in/2]);
 } */
 
