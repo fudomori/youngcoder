@@ -5,26 +5,41 @@
 int main() {
   int valueLine, valueColumn;
   scanf("%d %d", &valueLine, &valueColumn);
-  int arr[valueLine][valueColumn];
 
+  int arr[valueLine][valueColumn];
   for (int i=0; i<valueLine; i++) {
     for (int j=0; j<valueColumn; j++) {
       scanf("%d", &arr[i][j]);
     }
   }
 
-  int arr_new[valueLine][valueColumn];
-  for (int j=valueColumn-1, count = 0; j>=0; j--, count++) {
+  int arr_count[valueLine+1][valueColumn];
+  for (int j=valueColumn-1, count=0; j>=0; j--, count++) {
     int sum = 0;
     for (int i=0; i<valueLine; i++) sum += arr[i][j];
-    arr_new[count][j] = sum;
-  }
+    arr_count[count][0] = sum;
+    printf("%d ", arr_count[count][0]);
+  } 
 
-  for (int i=0; i<valueLine-1; i++) {
-    if (arr_new[i][valueColumn-1-i] > arr_new[i+1][valueColumn-1-i])
-      for (int j=0; j<valueLine; j++)
-      printf("%d \n", arr[j][valueColumn-1-i]);
+  int min = 9999, max = -9999;
+  for (int i=0; i<valueColumn; i++) {
+    min = min < arr_count[i][0] ? min : i;
+    max = max > arr_count[i][0] ? max : i;
   }
+    printf("         %d %d\n", min, max);
+
+  // for (int i=0; i<valueLine; i++) {
+  //   for (int j=0; j<valueColumn; j++) {
+  //     if (j == min) {
+  //       printf("%d ", arr[i][max]);
+  //     } else if (j == max) {
+  //       printf("%d ", arr[i][min]);
+  //     } else {
+  //       printf("%d ", arr[i][j]);
+  //     }
+  //   }
+  //   printf("\n");
+  // }
 
   return 0;
 }
