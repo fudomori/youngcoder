@@ -1,0 +1,3 @@
+filename - "description"
+// Тип данных char
+quest1.c - Сопоставьте символ с его номером в таблице ASCII.
