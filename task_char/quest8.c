@@ -1,13 +1,28 @@
-/* Вывести на экран последние K символов латинского алфавита в верхнем регистре в алфавитном порядке. */
+/* Подсчитать количество символов в строке, без учёта нуль-символа. */
 
 #include <stdio.h>
 
 int main() {
-  int value;
-  scanf("%d", &value);
+/*   char str[100];
 
-  for (int i=91-value; i<=90; i++) {
-    printf("%c", i);
+  int count=0;
+  for (int i=0; i<100; i++) {
+    scanf("%c", &str[i]);
+    if (str[i] == '\n') break;
+    count++;
   }
+  printf("%d", count); */
+
+/*   char c;
+  int count=0;
+  for (scanf("%c", &c); c!='\n';scanf("%c", &c)) count++;
+  printf("%d", count); */
+
+  int i = 0;
+  char str[100];
+  fgets(str, 100, stdin);
+    while (str[i] != '\n') i++;
+  printf("%i", i);
+
   return 0;
 }

@@ -13,9 +13,16 @@ int main(void) {
   puts(str3); // есть вшитый /n
 
   // Ввод строк
-  char str[20];
-  gets(str); 
+  char str[10];
+  // gets(str);
+  fgets(str, 10, stdin);
+  // fflush(stdin); // очистить поток ввода
   puts(str);
+
+  int h = 99;
+  printf("do %d\n", h);
+  scanf("%d",&h);
+  printf("posle %d\n", h);
 
   return 0;
 }
