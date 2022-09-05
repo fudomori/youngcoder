@@ -3,16 +3,16 @@
 #include <stdio.h>
 
 int main(void) {
-  int one, two;
-  double dbl;
-  scanf("%d %d %lf", &one, &two, &dbl);
+  int a=0, b=0;
+  double f = 0; 
+  scanf("%d %d", &a, &b);
+  double * p_dbl = &f;
+  int * p_1 = &a;
+  int * p_2 = &b;
 
-  int *p_1 = &one;
-  int *p_2 = &two;
-  double *p_dbl = &dbl;
-  *p_dbl = (double) *p_1 / *p_2;
+  *p_dbl = (double)(*p_1)/(*p_2);    
 
-  printf("%lf", dbl);
+  printf("%.3f",f);
 
   return 0;
 }
