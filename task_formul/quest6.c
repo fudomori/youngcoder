@@ -4,8 +4,10 @@
 
 int sequence_multipliers(int x) {
   int i=0;
-  while (i++<x)
+  while (i++<x) {
     if (i*(i+1)*(i+2) == x) break;
+    if (i*(i+1)*(i+2)>x) return -1;
+  }
   return x==i-1 ? -1 : i;
 }
 
