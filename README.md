@@ -1,2 +1,2 @@
 # Here are my solved tasks youngcoder/stepik in C language
-# 1 mounth
+# Passed in 2 months (Прошел за 2 месяца)
