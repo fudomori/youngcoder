@@ -3,7 +3,7 @@
 void sort_arr(int arr[], int n, int fl){
   int count=1;
   if (fl) {
-    while (n-count>1) {
+    while (n-count>0) {
       for (int i=0; i<n-count; i++) {
         if (arr[i]<arr[i+1]) {
           int temp = arr[i];
@@ -14,7 +14,7 @@ void sort_arr(int arr[], int n, int fl){
     count++;
     }
   } else {
-    while (n-count>1) {
+    while (n-count>0) {
       for (int i=0; i<n-count; i++) {
         if (arr[i]>arr[i+1]) {
           int temp = arr[i];
